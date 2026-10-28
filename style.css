@@ -113,7 +113,7 @@ a {
 /* info style */
 
 .infomation {
-    height: max-content;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -138,3 +138,30 @@ a {
     font-style: italic;
 }
 
+/* quotation style */
+
+.quotation {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     height: 500px;
+
+}
+
+.quotation p {
+    flex-wrap: wrap;
+    font-style: italic;
+}
+
+.quotation #p-first {
+    width: 1000px;
+    font-size: xx-large;
+}
+
+.quotation #p-second {
+    width: 1000px;
+    text-align: right;
+    color: grey;
+}
