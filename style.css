@@ -5,7 +5,8 @@ body {
     margin: 0;
 }
 
-h1, p {
+h1, h2, p {
+    text-decoration-style: none;
     margin: 0;
     padding: 0;
     font-size: inherit;
@@ -22,6 +23,7 @@ a {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
+    gap: 200px;
     justify-content: center;
     height: max-content;
 }
@@ -113,6 +115,7 @@ a {
 /* info style */
 
 .infomation {
+    background-color: white;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -164,4 +167,42 @@ a {
     width: 1000px;
     text-align: right;
     color: grey;
+}
+
+/* signup */
+
+.signup-popup {
+    color: aliceblue;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.signup-popup div.card-popup {
+    width: 800px;
+    height: 50px;
+    padding: 30px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-popup div.head-popup {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-card-popup button {
+    border-radius: 10px;
+    border-color: #F9FAF8;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    height: 40px;
+    width: 100px;
 }
